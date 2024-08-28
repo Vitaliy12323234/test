@@ -5,6 +5,7 @@ import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.Nested;
 
 import static com.codeborne.selenide.Selenide.*;
 
@@ -17,18 +18,30 @@ public class MainTest {
         softAssertions = new SoftAssertions();
         openAndLogin();
     }
+@Nested
 
-   /* @Test
+    @Test
     void testAddValidNews() {
         addValidNews();
         softAssertions.assertAll(); // Проверяем все ошибки, найденные в тесте
-    }*/
-
+    }
     @Test
+    void create(){
+        CreateInfo.create();
+    }
+    @Test
+    void redact(){
+        Redact.redactMews();
+    }
+    @Test
+    void delete(){
+        Delete.deleteNews();
+    }
+    /*@Test
     void testAddNews() {
         addNewsWithEmptyFields();
         softAssertions.assertAll(); // Проверяем все ошибки, найденные в тесте
-    }
+    }*/
 
     @AfterAll
     static void tearDown() {
@@ -41,14 +54,14 @@ public class MainTest {
         SignIn.login();
     }
 
-   /* @Step("Добавление валидной новости")
+    @Step("Добавление валидной новости")
     static void addValidNews() {
         News.addValidNews();
-    }*/
+    }
 
-    @Step("Добавление новости с пустыми полями")
+    /*@Step("Добавление новости с пустыми полями")
     static void addNewsWithEmptyFields() {
         NoNews.addNewsWithEmptyFields();
 
-    }
+    }*/
 }
