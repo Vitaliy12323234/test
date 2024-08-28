@@ -1,10 +1,11 @@
 package org.example;
 
 import io.qameta.allure.Step;
+import org.openqa.selenium.Keys;
+
 import java.io.File;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$x;
+import static com.codeborne.selenide.Selenide.*;
 
 public class NoNews {
 

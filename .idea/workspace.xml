@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11932658-e46c-4612-9939-0831f0a74f58" name="Changes" comment="" />
+    <list default="true" id="11932658-e46c-4612-9939-0831f0a74f58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Negativ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/NoNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/NoNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/NoNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/NoNews.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,12 +27,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2lFl9WtuHgxEKFbxlVTrKppaDGT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,10 +46,13 @@
     "Application.Main.executor": "Run",
     "JUnit.MainTest.executor": "Run",
     "JUnit.MainTest.testAddNews.executor": "Run",
+    "JUnit.MainTest.testAddValidNews (1).executor": "Run",
     "JUnit.MainTest.testAddValidNews.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Виталий/IdeaProjects/untitled1/src/test/java",
+    "last_opened_file_path": "/home/dunice/IdeaProjects/test",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -48,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.testAddValidNews">
+  <component name="RunManager" selected="JUnit.MainTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="untitled1" />
@@ -63,7 +79,7 @@
       </method>
     </configuration>
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled1" />
+      <module name="autoTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -72,6 +88,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,6 +105,22 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
       <option name="METHOD_NAME" value="testAddNews" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testAddValidNews (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
+      <option name="METHOD_NAME" value="testAddValidNews" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,9 +144,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.testAddValidNews (1)" />
         <item itemvalue="JUnit.MainTest.testAddValidNews" />
         <item itemvalue="JUnit.MainTest.testAddNews" />
-        <item itemvalue="JUnit.MainTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
