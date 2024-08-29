@@ -1,67 +1,51 @@
 package org.example;
 
 import io.qameta.allure.Step;
-import org.assertj.core.api.SoftAssertions;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.Nested;
 
 import static com.codeborne.selenide.Selenide.*;
 
 public class MainTest {
-
-    private static SoftAssertions softAssertions;
-
-    @BeforeAll
-    static void setUp() throws InterruptedException {
-        softAssertions = new SoftAssertions();
+    @BeforeEach
+    void setUp() {
         openAndLogin();
     }
-@Nested
-
-    @Test
-    void testAddValidNews() {
-        addValidNews();
-        softAssertions.assertAll(); // Проверяем все ошибки, найденные в тесте
+    @AfterEach
+    void tearDown() {
+        closeWebDriver();
     }
-    @Test
-    void create(){
-        CreateInfo.create();
-    }
-    @Test
-    void redact(){
-        Redact.redactMews();
-    }
-    @Test
-    void delete(){
-        Delete.deleteNews();
-    }
-    /*@Test
-    void testAddNews() {
-        addNewsWithEmptyFields();
-        softAssertions.assertAll(); // Проверяем все ошибки, найденные в тесте
-    }*/
-
-    @AfterAll
-    static void tearDown() {
-        closeWebDriver(); // Закрываем браузер после выполнения всех тестов
-    }
-
     @Step("Открытие сайта и авторизация")
     static void openAndLogin() {
-        Open.openSite();
+        Open.opens();
         SignIn.login();
     }
-
-    @Step("Добавление валидной новости")
-    static void addValidNews() {
-        News.addValidNews();
+    @Nested
+    class ValidNewsTests {
+        @Test
+        void testNews() {
+            News.addValidNews();
+        }
+        @Test
+        void testCreate() {
+            CreateInfo.create();
+        }
+        @Test
+        void testRedact() {
+            Redact.redactMews();
+        }
+        @Test
+        void testDelete() {
+            Delete.deleteNews();
+        }
     }
-
-    /*@Step("Добавление новости с пустыми полями")
-    static void addNewsWithEmptyFields() {
-        NoNews.addNewsWithEmptyFields();
-
-    }*/
+    @Nested
+    class noTests {
+        @Test
+        void testAdd() {
+            NoNews.noaddNews();
+        }
+    }
 }
