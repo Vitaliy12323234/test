@@ -6,18 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="11932658-e46c-4612-9939-0831f0a74f58" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CreateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CreateInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Negativ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/News.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/NoNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/NoNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Open.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Open.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Redact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Redact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/MainTest$ValidNewsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/MainTest$ValidNewsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/MainTest$noTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/MainTest$noTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/News.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/NoNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/NoNews.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/Open.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/Open.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +53,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Виталий/IdeaProjects/untitled1/src/test/java",
-    "last_opened_file_path": "/home/dunice/IdeaProjects/test",
+    "last_opened_file_path": "C:/Users/Виталий/IdeaProjects/test",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
